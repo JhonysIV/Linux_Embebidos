@@ -1,5 +1,5 @@
-#🖥️ Embedded Systems Programming – Controlador de Lazo Cerrado
-#📌 Descripción del Proyecto
+# 🖥️ Embedded Systems Programming – Controlador de Lazo Cerrado
+# 📌 Descripción del Proyecto
 
 Este proyecto es una asignación de programación de sistemas embebidos que explora conceptos fundamentales de C, como:
 
@@ -19,7 +19,7 @@ Interfaz de Actuadores Polimórfica → interfaz genérica Actuator con backends
 
 Controlador de Lazo Cerrado → integra sensor y actuadores con lógica basada en umbrales y temporización.
 
-#📂 Estructura del Repositorio
+# 📂 Estructura del Repositorio
 
 ```text
 Tarea_2/
@@ -39,8 +39,8 @@ Tarea_2/
 ```
 
 
-#⚙️ Instrucciones de Compilación y Ejecución
-#🔨 Compilación
+# ⚙️ Instrucciones de Compilación y Ejecución
+# 🔨 Compilación
 
 El proyecto requiere gcc y make. Para el binario de 32 bits se necesitan las herramientas de compilación cruzada (gcc-multilib).
 
@@ -53,7 +53,7 @@ make ctl32
 # Limpiar compilación
 make clean
 
-#▶️ Ejecución
+# ▶️ Ejecución
 
 Por defecto el umbral es 50.0. Puede configurarse con la variable de entorno CTL_THRESHOLD.
 
@@ -63,7 +63,7 @@ Por defecto el umbral es 50.0. Puede configurarse con la variable de entorno CTL
 # Ejecutar con umbral personalizado (ej: 80.0)
 CTL_THRESHOLD=80.0 ./controller/ctl64
 
-#📊 Log de Ejecución (ejemplo)
+# 📊 Log de Ejecución (ejemplo)
 
 Cuando el valor del sensor supera el umbral → LED y buzzer se activan inmediatamente.
 Cuando baja del umbral → buzzer se apaga tras 1 s y LED tras 5 s.
@@ -80,7 +80,7 @@ $ ./controller/ctl64
 [ 6.000000000] value=60.000 threshold=50.000 LED=1 Buzzer=1
 ```
 
-#🔍 Inspección de Binarios
+# 🔍 Inspección de Binarios
 
 El Makefile genera binarios en 64 bits y 32 bits.
 
@@ -100,8 +100,8 @@ $ readelf -h controller/ctl32
 Class:     ELF32
 Machine:   Intel 80386
 
-#💡 Reflexión sobre los Conceptos
-#🔹 Compilación vs. Enlace
+# 💡 Reflexión sobre los Conceptos
+🔹 Compilación vs. Enlace
 
 Compilación: cada archivo .c se convierte en .o (verificación sintáctica/semántica).
 
