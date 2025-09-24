@@ -39,8 +39,6 @@ Tarea_2/
 ```
 
 
-
-
 #⚙️ Instrucciones de Compilación y Ejecución
 #🔨 Compilación
 
