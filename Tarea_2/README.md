@@ -20,20 +20,36 @@ Interfaz de Actuadores Polimórfica → interfaz genérica Actuator con backends
 Controlador de Lazo Cerrado → integra sensor y actuadores con lógica basada en umbrales y temporización.
 
 📂 Estructura del Repositorio
+
 Tarea_2/
+
 ├── sensor_feed.csv
+
+
 ├── Makefile
+
 ├── README.md
+
 ├── ai_log.md
+
 ├── sensor/
+
 │   ├── sensor.h
+
 │   └── sensor.c
+
 ├── actuators/
+
 │   ├── actuator.h
+
 │   ├── led_actuator.c
+
 │   └── buzzer_actuator.c
+
 └── controller/
+
     └── ctl.c
+
 
 ⚙️ Instrucciones de Compilación y Ejecución
 🔨 Compilación
