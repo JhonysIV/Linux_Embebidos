@@ -22,32 +22,18 @@ Controlador de Lazo Cerrado → integra sensor y actuadores con lógica basada e
 📂 Estructura del Repositorio
 
 Tarea_2/
-
 ├── sensor_feed.csv
-
-
 ├── Makefile
-
 ├── README.md
-
 ├── ai_log.md
-
 ├── sensor/
-
 │   ├── sensor.h
-
 │   └── sensor.c
-
 ├── actuators/
-
 │   ├── actuator.h
-
 │   ├── led_actuator.c
-
 │   └── buzzer_actuator.c
-
 └── controller/
-
     └── ctl.c
 
 
